@@ -16,7 +16,8 @@ body {
 }
 #lol:hover{
     transition: ease-in-out 0.3 s;
-    scale: 1.1;
+    scale: 1.5;
+    z-index: 1;
 }
 
 section {
@@ -27,4 +28,8 @@ section {
 }
 #x2{
     scale: 1.6;
+}
+.image-row {
+    display: flex;
+    gap: 25px;
 }
