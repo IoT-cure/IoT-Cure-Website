@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+body {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
+
+
+
+}
+
+#lol{
+    transition: ease-in-out 0.3s;
+    scale: 1;
+}
+#lol:hover{
+    transition: ease-in-out 0.3 s;
+    scale: 1.1;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+#x2{
+    scale: 1.6;
+}
