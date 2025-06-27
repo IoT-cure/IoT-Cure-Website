@@ -8,14 +8,24 @@ body {
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
 }
 
+@media (max-width: 768px) {
+    #x2 {
+        font-size: 1rem;
+        max-width: 90%;
+    }
+}
+
+
+
+
 #lol {
     transition: ease-in-out 0.3s;
-    scale: 1;
+    transform: scale(1);
 }
 
 #lol:hover {
     transition: ease-in-out 0.3 s;
-    scale: 1.5;
+    transform: scale(1.5);
     z-index: 1;
 }
 
@@ -27,10 +37,21 @@ section {
 }
 
 #x2 {
-    scale: 1.6;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    max-width: 600px;
+    text-align: center;
 }
+
 
 .image-row {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 25px;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
