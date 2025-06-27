@@ -10,6 +10,6 @@ Iot-cure is dedicated to making the Internet of Things safer by providing tools,
 
 You can view the live site [here](https://iot-cure.github.io/IoT-Cure-Website/)
 
-## Dislamer 
+## ⚠️ Dislamer 
 
 Iot-cure is not a real company its just someting I did for a school project
